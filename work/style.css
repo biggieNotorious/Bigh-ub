@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    background: linear-gradient(rgba(0, 0, 0, 0.021),rgba(0, 0, 0, 0.418)), url(./IMG_1798.JPG);
+    background-size:cover ;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+ 
+}
+
+.content{
+    position: relative;
+    padding: 10px;
+    width: 500px;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    font-size: 2rem;
+}
+.banner{
+    margin-top: 10rem;
+}
+
+.banner h1{
+    font-size:4rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 10% 0;
+    line-height: 50px;
+}
+
+
+.banner p{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10% 0;
+
+}
+
+
+.banner .image-content img{
+    backdrop-filter: blur(5px);
+    display: inline-block;
+    width: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.021);
+}
+
+.content2 form{
+    width: fit-content;
+    min-height:100vh ;
+    padding:70px 40px ;
+    backdrop-filter: blur(5px);
+    background: #0000002c;
+}
+.content2 form h1{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.content2 form label{
+    display: block;
+    color: #ffffff75;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.content2 .input-content{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 11px;
+    margin-top: 11px;
+}
+.content2 .content-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content2 .content-img input{
+    padding: 10px;
+    width: 70%;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+.content2 .content-img input::placeholder{
+    color: #fff;
+}
+.content2 .content-img img{
+    width: 15px;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.input-box{
+    display: flex;
+    gap: .8rem;
+    word-spacing: 1px
+}
+
+.input-box label{
+   color: #333;
+   font-size: 19px;
+}
+
+.input-box label a{
+    color: #fff;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.button-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-content .btn{
+    color: #fff;
+    background: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button-content .link{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 17px;
+    cursor: pointer;
+}
+.content3{
+    background: linear-gradient(rgba(0, 0, 0, 0.021),rgba(0, 0, 0, 0.418)), url(./IMG_1798.JPG);
+    background-size:cover ;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+    font-size: 30px;
+    color: #fff ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+
+.content3h h1{
+    padding-bottom: 5rem;
+}
+.content3 a{ 
+    margin: 2rem;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    color: #fff;
+}
+
+
+@media screen and (max-width:893px) {
+
+    
+.content{
+    display: block;
+}
+.hero{
+    display: block;
+    padding: 2%;
+    margin: 5%;
+}
+
+}
